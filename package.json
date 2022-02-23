@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/44thm0820/city-explorer-api-82#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3"
   }
 }
