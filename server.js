@@ -34,7 +34,7 @@ app.get('/weather', (request, response) => {
     let lon = request.query.lon;
 
     let foundData = weatherData.find(cityData => cityData.lat === lat && cityData.lon === lon) || weatherData.find(cityData => cityData.city_name === searchQuery);
-    let forecastArray = foundData.data.map(datDay => new Forecast(dataDay));
+    let forecastArray = foundData.data.map(dataDay => new Forecast(dataDay));
     response.send(forecastArray);
   } catch(error) {
     throw new Error('weather not found for your submitted city');
