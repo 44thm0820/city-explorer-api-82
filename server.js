@@ -26,6 +26,7 @@ app.get('/', (request, response) => {
 const weatherData = require('./data/weather.json');
 
 app.get('/weather', (request, response) => {
+// app.get('/weather', async (request, response) => {
   let searchQuery = request.query.searchQuery;
 
   let lat = request.query.lat;
