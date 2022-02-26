@@ -1,5 +1,102 @@
 # Filename: city-explorer-api-82
 
+## Lab - Class 10 - Advanced Topics - Caches and Yelp - stub
+
+**Author**: Rey Mercado
+**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+
+**Collaborator for group work**: Michael Campbell
+
+## Overview
+
+Overview
+It can be costly to hit an API over and over. For today’s lab, you will create an object in your server code to hold the API response data for your proxied queries. That way your back end can first check to see if you already have information about a given city and, if you do, send you the data directly from storage object, without concerns of being rate-limited by the API providers.
+
+
+
+Convert the `README.md` file to be documentation regarding your lab and its current state of development. Check the "documentation" section of the lab assignment for more details on how that should look AT MINIMUM.
+
+<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+
+Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?)
+
+## Getting Started
+<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+
+What are the steps that a user must take in order to build this app on their own machine and get it running?
+
+## Process
+
+For every lab in this module, you will have a new partner. You and your new partner(s) will spend the first 30 minutes reviewing each other’s code from the previous lab and planning out an approach to this lab’s work on a whiteboard.
+
+Do a formal code review of each person’s code (10 minutes each).
+Open your partner’s GitHub pull request on your laptop.
+Identify an area in the code that:
+you don’t understand
+or seems overly complex
+or you see a way to improve
+or you want more information on
+or you really like or think is interesting
+Add kind comments or questions inline using the GitHub review feature.
+Draw the web request-response cycle for the current lab tasks (about 10 minutes).
+Document the data flow: identify inputs and outputs for each part of the cycle.
+Outline the functions that support this data flow.
+Be sure to include these drawings in your README.md.
+You will then work independently for the rest of the day, implementing your plan, coding in your own repository, submitting your own pull request.
+
+
+## Draw the web request-response cycle for the current lab tasks (about 15 minutes).
+
+Document the data flow: identify inputs and outputs for each part of the cycle.
+Outline the functions that support this data flow.
+Be sure to include these drawings in your README.md.
+You will then work independently for the rest of the day, implementing your plan, coding in your own repository, submitting your own pull request.
+
+## Whiteboard visualization / group work
+
+![Web request-response cycle](.WRRC-LAB10-Michael-Rey.png "WRRC drawing lab10")
+
+Drawing collaborated with group partner Michael Campbell
+
+## Netlify App URL
+
+(https://gallant-engelbart-d8b680.netlify.app/)
+
+## Trello board url
+
+(https://trello.com/b/xGlz6ikd/city-explorer-301d82)
+
+## Architecture
+
+Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information.
+<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+
+## Change Log
+
+Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
+
+01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource.
+
+<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
+
+01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+
+## Credit and Collaborations
+<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+Time Estimates
+For each of the lab features, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
+
+Name of feature: ________________________________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+# Filename: city-explorer-api-82
+
 ## Lab - Class 09 - refactoring - stub
 
 **Author**: Rey Mercado
@@ -49,9 +146,9 @@ You will then work independently for the rest of the day, implementing your plan
 
 ## Whiteboard visualization / group work
 
-![Web request-response cycle](./WRRC-Lab07.png "WRRC drawing")
+![Web request-response cycle](.WRRCLAB09-TANNER-REY.png "WRRC drawing")
 
-Drawing collaborated with group partner Micha Davis
+Drawing collaborated with group partner Tanner Percival
 
 ## Netlify App URL
 
@@ -142,9 +239,9 @@ You will then work independently for the rest of the day, implementing your plan
 
 ## Whiteboard visualization / group work
 
-![Web request-response cycle](./WRRC-Lab07.png "WRRC drawing")
+![Web request-response cycle](./BRIAN-REY-FEB23LAB08.png "WRRC drawing")
 
-Drawing collaborated with group partner Micha Davis
+Drawing collaborated with group partner Brian Thornburg
 
 ## Netlify App URL
 
