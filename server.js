@@ -4,26 +4,23 @@ console.log('Hellow world, form our FIRST server!');
 
 // in our servers we MUST use require instead of import
 // to create server, bring in Express, as per docs
+require('dotenv').config();
 const express = require('express');
+const cors = require('cors');
 
-// once we have express, we must use express
+const weatherData = require('./data/weather.json');
+
 const app = express();
 
-// bring in dotenv if we are going to use a .env
-
-require('dotenv').config();
-const PORT = process.env.PORT || 3002;
-
-// we must include CORS if we want to share resources over the web
-const cors = require('cors');
 app.use(cors());
 
+const PORT = process.env.PORT || 3002;
 // creating basic default route
+
 app.get('/', (request, response) => {
   response.send('Hello, from our server!');
 });
 
-const weatherData = require('./data/weather.json');
 
 app.get('/weather', (request, response) => {
 
